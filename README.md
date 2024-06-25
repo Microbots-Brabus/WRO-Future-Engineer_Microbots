@@ -24,6 +24,8 @@ the body of code :
 
 We used (Tof sensors - Gyro sensor - Ultra sonic sensor - Servo motor - Brushless motor )
 
+Explain the Functions ---->
+
 setID() {...} // set the Tof sensor
 
 mpu_setup(){.....} //the command that wil be used in the setup 
