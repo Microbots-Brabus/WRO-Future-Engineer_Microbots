@@ -18,9 +18,32 @@ the body of code :
 
 4- definition the functions .
 
-5- void setup .
+5- void setup . 
 
 6-  void loop .
 
 We used (Tof sensors - Gyro sensor - Ultra sonic sensor - Servo motor - Brushless motor )
+
+setID() {...} // set the Tof sensor
+
+mpu_setup(){.....} //the command that wil be used in the setup 
+
+mpu_loop() {.....}      // the command that wil be used in the loop
+
+calibrateGyro(){....}   // some time gyro need to calibrate
+
+P_id_gyro() {....} // apply Pid using gyro
+
+read_tof_R1() // read value from first right tof
+
+read_tof_R2() // read value from second right tof
+
+read_tof_L1() // read value from first Left tof
+
+read_tof_L2() // read value from second Left tof
+
+read_tof_f() // read value from front tof
+
+
+
 
